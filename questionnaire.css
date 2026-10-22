@@ -1,0 +1,27 @@
+#quiz .small{font-size:14px}
+#quiz button,#quiz input,#quiz select,#quiz textarea{font:inherit}
+#quiz button{cursor:pointer}
+#quiz button:focus-visible,#quiz input:focus-visible,#quiz select:focus-visible,#quiz textarea:focus-visible{outline:3px solid #edac36;outline-offset:3px}
+#quiz .options{display:grid;gap:10px;margin:25px 0}
+#quiz .choice{background:white;border:1px solid #d7e0ee;border-radius:10px;text-align:left;padding:15px 18px;color:#263956;min-height:52px}
+#quiz .choice:hover{border-color:#245eea;background:#f5f8ff}
+#quiz .choice.selected{border:2px solid #245eea;background:#edf3ff;padding:14px 17px;color:#1844aa}
+#quiz .controls{display:flex;justify-content:space-between;gap:15px;margin-top:28px}
+#quiz .primary,#quiz .secondary{border-radius:9px;padding:13px 22px;border:0;font-weight:700}
+#quiz .primary{background:#245eea;color:white}
+#quiz .primary:disabled{background:#bdc9df;cursor:not-allowed}
+#quiz .secondary{background:#edf1f7;color:#43536d}
+#quiz .progress{height:5px;background:#e6edf7;border-radius:5px;margin:14px 0 28px}
+#quiz .progress div{height:100%;background:#245eea;border-radius:5px}
+#quiz .step{font-size:14px;color:#60718b;display:flex;justify-content:space-between}
+#quiz .error{color:#aa2434;background:#fff0f1;padding:10px;border-radius:6px}
+#quiz .result-label{color:#245eea;font-weight:700;font-size:13px;letter-spacing:1px}
+#quiz .roadmap{padding-left:23px}
+#quiz .roadmap li{padding:7px 0;line-height:1.5}
+#quiz .notice{background:#f1f5fd;border-left:3px solid #245eea;padding:15px;font-size:14px;line-height:1.5;margin:20px 0}
+#quiz label{display:block;font-size:14px;font-weight:600;margin:18px 0 7px}
+#quiz input,#quiz select,#quiz textarea{width:100%;border:1px solid #ccd7e6;border-radius:8px;padding:12px;background:white;color:#172337}
+#quiz textarea{min-height:85px}
+#quiz .consent{display:flex;align-items:flex-start;gap:10px;line-height:1.5;font-weight:400}
+#quiz .consent input{width:18px;margin-top:3px;flex-shrink:0}
+#quiz h2{font-size:27px;line-height:1.25;margin:18px 0;letter-spacing:-.7px}#quiz h3{font-size:19px}#quiz p{color:var(--muted)}#quiz .progress{margin-top:14px}#quiz .controls{flex-wrap:wrap}#quiz .step{font-size:12px;gap:12px}#quiz [hidden]{display:none!important}#quiz .primary{background:var(--blue)}
